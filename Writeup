@@ -1,0 +1,5 @@
+1. We create a ballot for c and then vote for it.
+2. After going through the code, it can be learned that Goal is to edit the ballot json in such a way that the value of votes added to A and B makes it lesser than C. 
+3. , we can see that it doesn't verify the integrity of the json produced.
+4. Changing the count in json would achieve this task.
+5. Just tried cracking this by trying different combinations of counts for a and b so that it becomes negative/zero somehow.
